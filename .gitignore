@@ -1,0 +1,12 @@
+cat > .gitignore <<'EOF'
+**/node_modules/
+**/dist/
+**/target/
+**/.env
+**/.env.*
+**/application-local.properties
+**/application-local.yml
+.DS_Store
+.idea/
+.vscode/
+EOF.Rhistory
