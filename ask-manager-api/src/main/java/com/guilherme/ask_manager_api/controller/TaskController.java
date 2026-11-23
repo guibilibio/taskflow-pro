@@ -11,7 +11,7 @@ import java.util.List;
 @RequestMapping("/tasks")
 @CrossOrigin(origins = {
         "http://localhost:5173",
-        "https://taskflow-pro.vercel.app"
+        "https://taskflow-pro-v1.vercel.app"
 })
 public class TaskController {
 
