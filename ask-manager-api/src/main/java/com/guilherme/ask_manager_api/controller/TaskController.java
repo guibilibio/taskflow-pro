@@ -9,7 +9,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/tasks")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+        "http://localhost:5173",
+        "https://taskflow-pro.vercel.app"
+})
 public class TaskController {
 
     private final TaskService taskService;
