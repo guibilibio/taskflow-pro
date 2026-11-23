@@ -1,6 +1,8 @@
 import type { Task, TaskPriority } from '../types/Task'
 
-const API_URL = 'http://localhost:8080/tasks'
+const API_URL = `${
+  import.meta.env.VITE_API_URL || 'http://localhost:8080'
+}/tasks`
 
 export type CreateTaskRequest = {
   title: string
